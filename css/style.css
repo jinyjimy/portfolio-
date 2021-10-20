@@ -49,9 +49,11 @@
   .eunjin {width: 30%; margin-left: 1rem}
   .abouttext {font-size: 15px;}
   .abouttext2 {font-size: 12px;}
+
 }
 
 @media screen and (max-width: 480px) {
+  div {padding-left: 0;}
   .skill .photoshop {width: 120px; height: 10px;}
   .skill .illustrator {width: 120px;height: 10px;}
   .skill .html {width: 120px;height: 10px;}
