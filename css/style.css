@@ -30,36 +30,74 @@
   line-height: 38px; color:#fff}
   .logo { transform: rotate( 720deg );width: 50%;}
 .copyright {font-size: 15px;}
+
+.icon1 {width: 5%;}
+
+
+
+/*반응형 수정*/
+
+@media screen and (max-width: 991px) {
+/*index*/
+.fh5co-project  {padding:3rem 0}
+
+
+
+
+/*about*/
+  .profiletext {padding-left: 0;}
+  .eunjin {width: 30%; margin-left: 1rem}
+  .abouttext {font-size: 15px;}
+  .abouttext2 {font-size: 12px;}
+}
+
+@media screen and (max-width: 480px) {
+  .skill .photoshop {width: 120px; height: 10px;}
+  .skill .illustrator {width: 120px;height: 10px;}
+  .skill .html {width: 120px;height: 10px;}
+  .skill .css {width: 120px;height: 10px;}
+  .skill .js1 {width: 120px;height: 10px;}
+  .skill .sns {width: 120px;height: 10px;}
+  .skill div span {height: 10px;line-height: 10px;}
+  .indexbox h2 {font-size: 20px;}
+  .indexbox p {font-size: 15px;}
+}
+@media screen and (max-width: 768px) {
+  .skill h6 {width: 50px;}
+  .about p {font-size: 12px;}
+
+}
 /*스킬 움직이는 부분 수정*/
 .box1 {display: flex; padding-bottom: 20px;}
 .box2 {display: flex;padding-bottom: 20px;}
 .box3 {display: flex;}
-.skill h6 {width: 100px;}
+.skill {width: 100%;}
+.skill h6 {width: 70px;}
 .skill span {font-size: 12px;}
 
 .photoshop {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
-.photoshop span {display: block; width: 90%;height: 15px;
-  line-height: 15px;background-color:#ef4a35 ; box-sizing: border-box;color:#fff ; text-align: right;
-animation: photoshop 4s 1}
+.photoshop span {display: block; width: 95%;height: 15px;
+  line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
+animation: photoshop 4s 1;}
 .illustrator {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .illustrator span {display: block; width: 95%;height: 15px;
-  line-height: 15px;background-color:#ef4a35 ; box-sizing: border-box;color:#fff ; text-align: right;
+  line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
 animation: illustrator 4s 1}
 .html {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
-.html span {display: block; width: 85%;height: 15px;
-  line-height: 15px;background-color:#ef4a35 ; box-sizing: border-box;color:#fff ; text-align: right;
+.html span {display: block; width: 90%;height: 15px;
+  line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
 animation: html 4s 1}
 .css {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
-.css span {display: block; width: 80%;height: 15px;
-  line-height: 15px;background-color:#ef4a35 ; box-sizing: border-box;color:#fff ; text-align: right;
+.css span {display: block; width: 85%;height: 15px;
+  line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
 animation: css 4s 1}
 .js1 {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
-.js1 span {display: block; width: 95%;height: 15px;
-  line-height: 15px;background-color:#ef4a35 ; box-sizing: border-box;color:#fff ; text-align: right;
+.js1 span {display: block; width: 75%;height: 15px;
+  line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
 animation: js 4s 1}
 .sns {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .sns span {display: block; width: 95%;height: 15px;
-  line-height: 15px;background-color:#ef4a35 ; box-sizing: border-box;color:#fff ; text-align: right;
+  line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
 animation: sns 4s 1}
 
 
@@ -417,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header h1 {
     font-size: 1.5em;
     line-height: 50px;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 2px;
   }
 }
@@ -663,7 +701,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .fh5co-project .fh5co-text {
-  /*padding-top: 3em;*/
+  padding-top: 3em;
 }
 .fh5co-project .fh5co-text h2 {
   color: white;
