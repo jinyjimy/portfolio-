@@ -80,27 +80,27 @@
 .photoshop {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .photoshop span {display: block; width: 95%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: photoshop 3s 5;}
+animation: photoshop 3s 1; animation-delay: 3s;}
 .illustrator {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .illustrator span {display: block; width: 95%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: illustrator 3s 5}
+animation: illustrator 3s 1; animation-delay: 3s;}
 .html {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .html span {display: block; width: 90%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: html 3s 5}
+animation: html 3s 1; animation-delay: 3s;}
 .css {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .css span {display: block; width: 85%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: css 3s 5}
+animation: css 3s 1; animation-delay: 3s;}
 .js1 {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .js1 span {display: block; width: 75%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: js 3s 5}
+animation: js 3s 1;animation-delay: 3s;}
 .sns {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .sns span {display: block; width: 95%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: sns 3s 5}
+animation: sns 3s 1 ;animation-delay: 3s;}
 
 
 @keyframes photoshop {
