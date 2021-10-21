@@ -80,27 +80,27 @@
 .photoshop {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .photoshop span {display: block; width: 95%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: photoshop 4s 1;}
+animation: photoshop 3s 5;}
 .illustrator {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .illustrator span {display: block; width: 95%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: illustrator 4s 1}
+animation: illustrator 3s 5}
 .html {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .html span {display: block; width: 90%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: html 4s 1}
+animation: html 3s 5}
 .css {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .css span {display: block; width: 85%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: css 4s 1}
+animation: css 3s 5}
 .js1 {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .js1 span {display: block; width: 75%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: js 4s 1}
+animation: js 3s 5}
 .sns {height: 15px;background-color: #eee; width: 200px; margin: 0 auto;}
 .sns span {display: block; width: 95%;height: 15px;
   line-height: 15px;background-color:#ffab00 ; box-sizing: border-box;color:#000 ; text-align: right;
-animation: sns 4s 1}
+animation: sns 3s 5}
 
 
 @keyframes photoshop {
